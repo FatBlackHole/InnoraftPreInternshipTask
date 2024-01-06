@@ -44,11 +44,22 @@ $(document).ready(function(){
     $(".header").click(function(){
         $(this).css("background-color", "blue");
     });
-    $(".left2").click(function(){
-        $(".left2 > h4").html("Leftbar");
+    $(".left").click(function(){
+        $(".left > p").html("Leftbar");
     });
     $(".down").click(function (e) { 
         e.preventDefault();
         $(".main").fadeOut();
     });
+});
+
+// 5. POP-UP
+$(document).ready(function () {
+    $(".footer").click(function(){
+        $("#popup").css("display", "flex");
+    });
+    $("#popup span").click(function(){
+        $("#popup").css("display", "none");
+    });
+
 });
