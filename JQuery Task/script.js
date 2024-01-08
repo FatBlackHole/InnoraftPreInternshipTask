@@ -47,9 +47,10 @@ $(document).ready(function(){
     $(".left").click(function(){
         $(".left > p").html("Leftbar");
     });
-    $(".down").click(function (e) { 
-        e.preventDefault();
-        $(".main").fadeOut();
+    $(".down").click(function () {
+        $(".up").fadeOut(0, function(){
+            $(".down").css("height", "100%");
+        });
     });
 });
 
