@@ -10,6 +10,7 @@ body{
     background: white;
     max-width: 800px;
     color: white;
+    
 }
 .text-al{
     text-align: center;
@@ -21,7 +22,9 @@ body{
     margin-bottom: 5px;
     height: 50px;
     background: rgb(139, 28, 89);
+    background: rgb(139, 28, 89);
 }
+
 .main{
     height: 150px;
     display: flex;
