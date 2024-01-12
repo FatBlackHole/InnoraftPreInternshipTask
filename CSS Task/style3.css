@@ -1,5 +1,136 @@
 *{
     border: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 7svh;
+    max-width: 1000px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    overflow: scroll;
+}
+li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px;
+}
+li a:hover{
+    background: black;
+    color: white;
+}
+.section1{
+    background-image: linear-gradient(rgba(28, 71, 150, 0.538),rgba(31, 43, 134, 0.473)),url(img/img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 93svh;
+    /* min-width: 1500px; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-align: center;
+    max-width: 800px;
+    color: white;
+}
+.text button{
+    padding: 10px;
+    margin: 25px 10px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.btn1{
+    background: rgb(235, 235, 85);
+    color: black;
+}
+.btn2{
+    background: rgba(0, 0, 0, 0);
+}
+.head1{
+    /* display: inline-block; */
+    font-size: 70px;
+    font-weight: 100;
+}
+.bold{
+    font-weight: 900;
+}
+.section2{
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80svh; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* width: 100vw; */
+}
+.container1{
+    max-width: 1000px;
+    /* background: rgb(210, 139, 139); */
+    margin:  50px auto;
+    padding: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container1 .left{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container1 .right{
+    width: 580px;
+    height: 100%;
+    display: flex;
+    align-items: center;  
+}
+.container1 .right img{
+    width: 100%;
+}
+.up h2{
+    font-size: 50px;
+    font-weight: 100;
+}
+.up p{
+    opacity: 0.5;
+}
+.down{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.down img{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+}
+.down div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    opacity: .8;
+}
+
+
